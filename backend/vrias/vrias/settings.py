@@ -52,6 +52,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "vrias.urls"
 
+AUTH_USER_MODEL = "auth_app.User"
+
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
